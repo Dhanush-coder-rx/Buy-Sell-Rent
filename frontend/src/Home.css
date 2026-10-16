@@ -1,0 +1,29 @@
+/* Home.css */
+.home-container {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-button {
+    padding: 12px 24px;  /* You can adjust padding if you want */
+    font-size: 16px;
+    width: 230px;  /* Set desired width */
+    height: 70px;  /* Set desired height */
+    border: none;
+    margin-top: 430px;
+    border-radius: 8px;
+    background-color: #fa1919;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .login-button:hover {
+    background-color: #fc4848;
+  }
+  
+  

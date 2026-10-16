@@ -1,0 +1,61 @@
+/* Login.css */
+.bg-image {
+    background-image: url('Login.png'); /* Update with the correct image path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    background-color: rgba(255, 255, 255, 0.8); /* Light transparent background for the card */
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+  }
+  
+  h2 {
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    border-radius: 5px;
+  }
+  
+  .form-select {
+    border-radius: 5px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .d-block {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .d-block a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .d-block a:hover {
+    text-decoration: underline;
+  }
+  
